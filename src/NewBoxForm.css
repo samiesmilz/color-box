@@ -1,0 +1,18 @@
+input {
+  padding: 5px;
+  font-size: medium;
+  margin: 0 5px;
+}
+
+button {
+  padding: 5px 25px;
+  font-size: medium;
+}
+
+.NewBoxForm {
+  background-color: aquamarine;
+  padding: 25px 10px;
+  margin: 25px;
+  border-radius: 5px;
+  border: 1px black solid;
+}

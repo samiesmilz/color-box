@@ -1,0 +1,23 @@
+.BoxList {
+  background-color: beige;
+  margin: 25px;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.BoxList-Tracker {
+  font-size: small;
+  background-color: azure;
+  padding: 10px 10px;
+  animation: growAndShrink 5s ease-in-out infinite alternate;
+}
+
+@keyframes growAndShrink {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
