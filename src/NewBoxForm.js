@@ -29,6 +29,7 @@ const NewBoxForm = ({ addBox }) => {
         <label htmlFor="width">Set width:</label>
         <input
           type="text"
+          id="width"
           name="width"
           placeholder="Enter width"
           value={data.width}
@@ -37,6 +38,7 @@ const NewBoxForm = ({ addBox }) => {
         <label htmlFor="height">Set height:</label>
         <input
           type="text"
+          id="name"
           name="height"
           placeholder="Enter height"
           value={data.height}
@@ -45,12 +47,15 @@ const NewBoxForm = ({ addBox }) => {
         <label htmlFor="color">Set color:</label>
         <input
           type="text"
+          id="color"
           name="color"
           placeholder="Enter color"
           value={data.color}
           onChange={handleChange}
         />
-        <button type="submit">Add box</button>
+        <button type="submit" name="add-box">
+          Add box
+        </button>
       </form>
     </div>
   );

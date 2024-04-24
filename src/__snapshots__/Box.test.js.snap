@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Box"
+  >
+    <p
+      class="Box-label"
+    >
+      This is a box with width of px and height of px with color - .
+    </p>
+    <div
+      class="Box-color"
+    >
+      <button>
+         ❇️X 
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
